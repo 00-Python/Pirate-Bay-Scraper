@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 
-# object for torrent site scrapper
+# object for torrent site scraper
 class TorrentFinder:
     # constructor
     def __init__(self):
