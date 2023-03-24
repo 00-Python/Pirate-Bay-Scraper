@@ -7,7 +7,7 @@ An Object Oriented scrapper that searches piratebay.live for torrents and return
 1. bs4
 
 ## How to use?
-First, clone this repository, then install the required modules with the python package installer pip.
+First, clone this repository, then install the required modules with pip.       
     `git clone https://github.com/00-Python/OOP-Pirate-Bay-Scraper.git`   
     `cd OOP-Pirate-Bay-Scrapper`  
     `pip install requests re beautifulsoup4`
