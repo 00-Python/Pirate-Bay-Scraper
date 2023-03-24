@@ -1,7 +1,7 @@
-# OOP-Pirate-Bay-Scrapper
-An Object Oriented scrapper that searches piratebay.live for torrents and returns a list of dictionaries with filenames, filesize, magnets, seeds, leechers.
+# OOP-Pirate-Bay-Scraper
+An Object Oriented scraper that searches piratebay.live for torrents and returns a list of dictionaries with filenames, filesize, magnets, seeds, leechers.
 
-If piratebay.live is not working you can change the base url to a dfferent pirate bay server in `pb_scrapper.py` on line 14     
+If piratebay.live is not working you can change the base url to a dfferent pirate bay server in `pb_scraper.py` on line 14     
 `url = 'https://piratebay.live/search/' + query + '/1/99/0'`        
 Make sure to leave the `/search/` at the end of the new url.        
     example:     
@@ -14,14 +14,14 @@ Make sure to leave the `/search/` at the end of the new url.
 
 ## How to use?
 First, clone this repository, then install the required modules with pip.       
-    `git clone https://github.com/00-Python/OOP-Pirate-Bay-Scrapper.git`   
-    `cd OOP-Pirate-Bay-Scrapper`  
+    `git clone https://github.com/00-Python/OOP-Pirate-Bay-Scraper.git`   
+    `cd OOP-Pirate-Bay-Scraper`  
     `pip install requests re beautifulsoup4`
 
 Once you have installed the modules you can create a blank python file i.e. torrents.py 
 ```
-# Inside your python file import the the scrapper
-from pb_scrapper import TorrentFinder
+# Inside your python file import the the scraper
+from pb_scraper import TorrentFinder
 
 # then create an instance of the object
 scrape = TorrentFinder()
