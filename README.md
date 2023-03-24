@@ -1,5 +1,11 @@
 # OOP-Pirate-Bay-Scraper
-An Object Oriented scrapper that searches piratebay.live for torrents and returns dictionary with Filenames, Sizes, magnets, seeds, leeches
+An Object Oriented scrapper that searches piratebay.live for torrents and returns a list of dictionaries with filenames, filesize, magnets, seeds, leechers.
+
+If piratebay.live is not working you can change the base url to a dfferent pirate bay server in `pb_scrapper.py` on line 14     
+`url = 'https://piratebay.live/search/' + query + '/1/99/0'`        
+Make sure to leave the `/search/` at the end of the new url.        
+    example:     
+    `url = 'https://newserver.pb/search/' + query + '/1/99/0'`      
 
 ## Modules required:
 1. requests
